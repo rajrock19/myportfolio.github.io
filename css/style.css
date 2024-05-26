@@ -21,6 +21,9 @@ h1, h2, h3, h4 {
 
 h2 {
   font-size: 25px; }
+  p{
+    color:whitesmoke!important;
+  }
 
 a {
   -webkit-transition: .3s all;
@@ -453,3 +456,38 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+  .d-none{
+    display: none;
+  }
+
+  .mybtn{
+
+      --btn-color: #bac964;
+      --btn-bg: #333333;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin:5px 5px;
+      background-color: var(--btn-bg);
+      color: var(--btn-color);
+      padding: 14px 22px;
+      border-radius: 8px;
+      border: 0;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 1rem;
+      font-family: system-ui;
+      border: 2px solid var(--btn-color);
+      transition: 100ms ease;
+      box-shadow: 5px 5px 0 0 var(--btn-color);
+  }
+  .experiencebtnrow{
+    display:inline-block;
+  }
+
+  .my-4{
+   margin-bottom:10px;
+  }
